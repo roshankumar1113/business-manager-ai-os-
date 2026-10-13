@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Business Manager",
+    "slug": "business-manager",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {"package": "com.roshan.businessmanager", "adaptiveIcon": {"backgroundColor": "#0D6B52"}},
+    "plugins": []
+  }
+}

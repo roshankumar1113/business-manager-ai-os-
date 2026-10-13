@@ -1,0 +1,48 @@
+# ── Python ────────────────────────────────────────────────────────────────
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd.bak
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ── Database ───────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Node / Expo ────────────────────────────────────────────────────────────
+node_modules/
+.expo/
+*.expo/
+dist/
+web-build/
+.metro-health-check*
+
+# ── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Test / temp output files ───────────────────────────────────────────────
+*.txt
+!README.md
+backend/test_*.py
+backend/run_seed.py
+backend/verify_api.py
+
+# ── Logs ───────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-error.log*
